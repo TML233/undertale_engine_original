@@ -1,0 +1,1 @@
+bgm=bgm_ruins;

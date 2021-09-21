@@ -17,6 +17,7 @@ if(argument_count>=4){
 if(argument_count>=5){
 	LOOP_END=argument[4];
 }
+
 if(BGM_IsSlotValid(SLOT)&&audio_exists(AUDIO)){
 	BGM_Stop(SLOT);
 	global._bgm_audio[SLOT]=AUDIO;

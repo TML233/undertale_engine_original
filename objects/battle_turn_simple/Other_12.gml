@@ -1,5 +1,4 @@
 ///@desc Turn Start
 
 //Start the attack!
-_inst[0]=instance_create_depth(0,0,0,battle_bullet_simple_inside);
-_inst[1]=instance_create_depth(0,0,0,battle_bullet_simple_outside);
+_inst[0]=instance_create_depth(battle_board.x-25,battle_board.y-25,0,battle_bullet_test);
